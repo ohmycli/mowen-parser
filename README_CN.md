@@ -1,6 +1,6 @@
-# mowen-parser
+中文 | [English](README.md)
 
-[English](README.md)
+# mowen-parser
 
 Zig 库，将 Markdown 转换为[墨问](https://mowen.app)平台的 `NoteAtom` AST 结构。
 

@@ -1,6 +1,6 @@
-# mowen-parser
+[中文](README_CN.md) | English
 
-[中文文档](README_CN.md)
+# mowen-parser
 
 Zig library that converts Markdown to [Mowen](https://mowen.app) platform's `NoteAtom` AST.
 
