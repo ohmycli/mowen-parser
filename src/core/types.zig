@@ -178,7 +178,7 @@ pub const NoteAtom = union(enum) {
                 try writer.objectField("attrs");
                 try writer.beginObject();
                 try writer.objectField("language");
-                try writer.print("\"{s}\"", .{cb.attrs.language});
+                try writer.write(cb.attrs.language);
                 try writer.endObject();
                 try writer.objectField("content");
                 try writer.beginArray();
