@@ -200,13 +200,3 @@ pub const NoteAtom = union(enum) {
         }
     }
 };
-
-pub const NoteRequest = struct {
-    body: NoteAtom,
-    settings: NoteSettings,
-
-    pub const NoteSettings = struct {
-        autoPublish: bool = false,
-        tags: [][]const u8 = &[_][]const u8{},
-    };
-};
